@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Java Exercises.iml" filepath="$PROJECT_DIR$/.idea/Java Exercises.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hesap makinesi/hesap makinesi.iml" filepath="$PROJECT_DIR$/hesap makinesi/hesap makinesi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project.iml" filepath="$PROJECT_DIR$/project.iml" />
     </modules>
   </component>
 </project>

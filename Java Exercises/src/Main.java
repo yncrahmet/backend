@@ -5,7 +5,7 @@ public class Main {
 
         // hesapMakinesi();
         // ciftTekSorgulama();
-       // basitFaizHesaplama();
+        // basitFaizHesaplama();
     }
 
     private static void hesapMakinesi() {
@@ -71,4 +71,5 @@ public class Main {
         System.out.println("Alacağınız miktar: "+yeniPara);
         System.out.println("Toplam paranız "+ (yeniPara + anaPara) + " olacak!");
     }
+   
 }
