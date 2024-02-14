@@ -8,6 +8,7 @@ public class Main {
         // basitFaizHesaplama();
         // notHesaplama();
         // usAlma();
+        // sayiKarsilastirma();
     }
 
     private static void hesapMakinesi() {
@@ -157,6 +158,16 @@ public class Main {
         int b = s.nextInt();
         System.out.println("3. sayı bekleniyor... ");
         int c = s.nextInt();
+
+        if (a>b && a>c){
+            System.out.println("İlk girilen "+a+" sayısı en büyüktür!");
+        }else if(b>a && b>c){
+            System.out.println("İkinci girilen "+b+" sayısı en büyüktür!");
+        }else if(c>a && c>b){
+            System.out.println("Üçüncü girilen "+c+" sayısı en büyüktür!");
+        }else{
+            System.out.println("Sayılar birbirine eşittir!");
+        }
 
     }
 }
