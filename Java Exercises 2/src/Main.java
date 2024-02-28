@@ -33,8 +33,8 @@ public class Main {
 //        System.out.print("Bir kelime girin: ");
 //        String isPalindrom = scanner.nextLine();
 //        String reverseWord = "";
-//        for(int i=word.length()-1; i>=0; i--){
-//            reverseWord+=word.charAt(i);
+//        for(int i=isPalindrom.length()-1; i>=0; i--){
+//            reverseWord+=isPalindrom.charAt(i);
 //        }
 //        if (word.equals(reverseWord)){
 //            System.out.printf("%s kelimesi bir palindromdur!",isPalindrom);
