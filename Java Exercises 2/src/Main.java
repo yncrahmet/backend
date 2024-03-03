@@ -30,18 +30,17 @@ public class Main {
         //
 
 
-//        System.out.print("Bir kelime girin: ");
-//        String isPalindrom = scanner.nextLine();
-//        String reverseWord = "";
-//        for(int i=isPalindrom.length()-1; i>=0; i--){
-//            reverseWord+=isPalindrom.charAt(i);
-//        }
-//        if (word.equals(reverseWord)){
-//            System.out.printf("%s kelimesi bir palindromdur!",isPalindrom);
-//        }else{
-//            System.out.printf("%s kelimesi bir palindrom değildir!",isPalindrom);
-//        }
-
+        System.out.print("Bir kelime girin: ");
+        String isPalindrom = scanner.nextLine();
+        String reverseWord = "";
+        for(int i=isPalindrom.length()-1; i>=0; i--){
+            reverseWord+=isPalindrom.charAt(i);
+        }
+        if (word.equals(reverseWord)){
+            System.out.printf("%s kelimesi bir palindromdur!",isPalindrom);
+        }else{
+            System.out.printf("%s kelimesi bir palindrom değildir!",isPalindrom);
+        }
 
         //
         // 3) Kullanıcıdan alınan bir cümlede belirli bir kelimenin kaç kez geçtiğini sayan bir Java programı yazın.
