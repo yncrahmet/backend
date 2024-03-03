@@ -1,13 +1,0 @@
-
-P
-java:S1854S":Remove this useless assignment to local variable "kelime".( Š±Ø
-V
-java:S1854";Remove this useless assignment to local variable "scanner".(ù ƒ‘üÿÿÿÿ
-G
-java:S1481",Remove this unused "scanner" local variable.(ù ƒ‘üÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(»ûÂÍûÿÿÿÿ
-V	java:S125 "<This block of commented-out lines of code should be removed.(™¤Õñüÿÿÿÿ
-V	java:S1252"<This block of commented-out lines of code should be removed.(¥¿å—ùÿÿÿÿ
-Q	java:S125F"<This block of commented-out lines of code should be removed.(ÀßÖ‡
-A
-java:S1481S"+Remove this unused "kelime" local variable.( Š±Ø
