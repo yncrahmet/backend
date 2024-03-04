@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java Exercises/Java Exercises.iml" filepath="$PROJECT_DIR$/Java Exercises/Java Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Exercises 2/Java Exercises 2.iml" filepath="$PROJECT_DIR$/Java Exercises 2/Java Exercises 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/backend.iml" filepath="$PROJECT_DIR$/.idea/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banka/banka.iml" filepath="$PROJECT_DIR$/banka/banka.iml" />
+    </modules>
+  </component>
+</project>
