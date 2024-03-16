@@ -39,6 +39,8 @@ public class Main {
             System.out.println("Cart is already empty");
         }
     }
+
+  
     private void viewCart(){
         if (itemCount==0){
             System.out.println("Cart is empty.");
