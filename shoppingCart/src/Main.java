@@ -23,6 +23,23 @@ public class Main {
             System.out.println("Sorry, the cart is full.");
         }
     }
+    
+    private void removeItemFromCart(String itemName){
+        if (itemCount>0){
+            for (int i=0;i<itemCount;i++){
+                if (itemNames[i].equals(itemName)){
+                    itemNames[i]=null;
+                    itemPrices[i]=0;
+                    System.out.println(itemName+" removed from the cart.");
+                    return;
+                }
+            }
+            System.out.println(itemName + " is not found in the cart.");
+        }else{
+            System.out.println("Cart is already empty");
+        }
+    }
+
     private void viewCart(){
         if (itemCount==0){
             System.out.println("Cart is empty.");
@@ -52,7 +69,8 @@ public class Main {
             System.out.println("1: Add item to cart.");
             System.out.println("2: View cart.");
             System.out.println("3: Calculate total.");
-            System.out.println("4: Exit.");
+            System.out.println("4: Remove item from cart");
+            System.out.println("5: Exit.");
 
             System.out.println("\nYour Choice: ");
             int choice = scanner.nextInt();
@@ -72,6 +90,11 @@ public class Main {
                     shoppingcart.calculateTotal();
                     break;
                 case 4:
+                    System.out.println("Enter item name: ");
+                    String removeItem = scanner.next();
+                    shoppingcart.removeItemFromCart(removeItem);
+                    break;
+                case 5:
                     System.out.println("Exiting the shopping cart. Good bye...");
                     System.exit(0);
                 default:
