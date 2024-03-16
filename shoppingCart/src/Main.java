@@ -23,6 +23,22 @@ public class Main {
             System.out.println("Sorry, the cart is full.");
         }
     }
+
+    private void removeItemFromCart(String itemName){
+        if (itemCount>0){
+            for (int i=0;i<itemCount;i++){
+                if (itemNames[itemCount].equals(itemName)){
+                    itemNames[itemCount]=null;
+                    itemPrices[itemCount]=0;
+                    System.out.println(itemName+" removed from the cart.");
+                    return;
+                }
+            }
+            System.out.println(itemName + " is not found in the cart.");
+        }else{
+            System.out.println("Cart is already empty");
+        }
+    }
     private void viewCart(){
         if (itemCount==0){
             System.out.println("Cart is empty.");
