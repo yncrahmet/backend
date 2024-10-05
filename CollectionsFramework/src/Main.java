@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Main {
 
@@ -14,6 +15,28 @@ public class Main {
         rooms.put(307, "Dolu");
         rooms.put(308, "Dolu");
         rooms.put(309, "Boş");
+
+        // b. Örnek: Bir sözlük uygulamasında, kelime-çeviri çiftlerini bir HashMap içinde saklayabilirsiniz.
+        // Anahtar olarak kelimeyi ve değer olarak çevirisini kullanabilirsiniz.
+
+        //       en       tr
+        HashMap<String, String> dictionary = new HashMap<>();
+
+        dictionary.put("hello", "merhaba");
+        dictionary.put("welcome", "hoşgeldin");
+        dictionary.put("buy", "satın almak");
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Which word will you translate into Turkish?");
+        String world = scanner.nextLine();
+
+        if (dictionary.containsKey(world)) {
+            String translated = dictionary.get(world);
+            System.out.println(world + " world in Turkish: "+translated);
+        } else {
+            System.out.println("The word does not exist in our system.");
+        }
 
     }
 
