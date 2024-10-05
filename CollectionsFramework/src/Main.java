@@ -33,6 +33,23 @@ public class Main {
         System.out.println();
         System.out.println("------------------Customers------------------");
 
+        // Bir öğrenci sınıfının notlarını bir ArrayList içinde saklayın. Ardından bu notları hesaplayarak
+        // sınıfın ortalama notunu hesaplayabilirsiniz.
+
+        ArrayList<Integer> grades = new ArrayList<>();
+
+        Student studentOne = new Student("Ahmet",22,90);
+        Student studentTwo = new Student("Mehmet",21,85);
+        Student studentThree = new Student("Ali",22,80);
+
+        grades.add(studentOne.getGrade());
+        grades.add(studentTwo.getGrade());
+        grades.add(studentThree.getGrade());
+
+        int GPA = ( grades.get(0) + grades.get(1) + grades.get(2) ) / 3;
+
+        System.out.println("GPA for Student's grade: " + GPA);
+
     }
 
 }
